@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Datos</title>
+<link rel="icon" type="image/png" href="../img/icono.png">
+<meta http-equiv="Content-Type"content="text/html";charset="utf-8">
+</head>
+<body>
+<h1>Información sobre el producto</h1>
+<fieldset>
+<legend> 
+<h2>Datos Básicos</h2>
+</legend>
+<form action="#" method="post">
+<label>Nombre</label><br> 
+<input type="text" name="text" required="">
+<br>
+<br>
+<label>Descripción </label><br> 
+<textarea rows="4" cols="50">
+</textarea>
+<br>
+<br>
+<label for="imagen">Foto</label>
+<input name="file" type="file"><br/>
+<br>
+<br>
+<input type="checkbox" name="añadir" value="recordar">Añadir contador de visitas
+</fieldset>
+<br>
+<fieldset>
+<legend> 
+<h2>Datos Economicos</h2>
+</legend>
+<form action="#" method="post">
+<label>Precio</label>
+<input type="number" name="number" required=""> <b>€</b></input>
+&nbsp
+&nbsp 
+&nbsp 
+<label>Impuestos</label> 
+<select name "lista" required=""> 
+	<option>-Selecciona-</option>  
+        <option>4%</option>
+        <option>7%</option>
+        <option>16%</option>
+        <option>25%</option>
+</select>
+<br>
+<br>
+<label>Promoción</label><br>
+<input  type = "radio"  name = "promoción" value="1" > Ninguno<br>
+<input  type = "radio"  name = "promoción" value="2"> Transporte Gratuito<br>
+<input  type = "radio"  name = "promoción" value="3"> Descuento 5%<br>
+</fieldset>
+</from>
+</body>
